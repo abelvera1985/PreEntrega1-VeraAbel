@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+
+  nav{
+    height: 80px;
+    width: 100%;
+    padding-bottom: 150px;
+    ul{
+      float: right;
+    margin-right: 20px;
+    }
+    li{
+      display: inline-block;
+    line-height: 80px;
+    margin: 0;
+    }
+  }
